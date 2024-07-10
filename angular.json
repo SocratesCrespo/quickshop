@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "quickshop:build:production"
+              "buildTarget": "quickshop:build:production"
             },
             "development": {
-              "browserTarget": "quickshop:build:development"
+              "buildTarget": "quickshop:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "quickshop:build"
+            "buildTarget": "quickshop:build"
           }
         },
         "test": {
